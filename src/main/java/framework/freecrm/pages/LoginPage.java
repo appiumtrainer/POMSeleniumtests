@@ -1,5 +1,6 @@
 package framework.freecrm.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -14,7 +15,7 @@ public class LoginPage extends TestBase {
 	@FindBy(name = "email")
 	WebElement username;
 
-	//WebElement username1 =driver.findElement(By.name("Email);
+	//WebElement username1 =driver.findElement(By.name("Email");
 
 	@FindBy(name = "password")
 	WebElement password;

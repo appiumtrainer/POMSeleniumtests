@@ -60,7 +60,7 @@ public class LoginTest {
 		log.info("Username is: "+ prop.getProperty("username"));
 		log.info("Password is: "+ prop.getProperty("password"));
 		loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
-		log.info("Test - freeCrmLoginTest - ended");
+		log.info("Test - freeCrmLoginTest - successfullyended");
 
 	}
 	
