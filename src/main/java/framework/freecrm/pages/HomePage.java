@@ -1,5 +1,6 @@
 package framework.freecrm.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,6 +12,8 @@ public class HomePage extends TestBase{
 
 	@FindBy(linkText = "Contacts")
 	WebElement contactsTab;
+
+	WebElement contactsTab1= driver.findElement(By.linkText("Contacts"));
 
 	@FindBy(xpath = "//button[contains(text(),'New')]")
 	WebElement newContactLink;
